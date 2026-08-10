@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor-Appointment</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+            <!-- Secition Image  -->
+    <div class="doctor-image">
+        <img src="images/doctor-appointment.jpg" alt="Doctor">
+    </div>
+
+            <!-- Aplication Form -->
+    <div class="form-section">
+        <h1>Doctor Appointment Form</h1>
+        <hr>
+        <form method="get">
+
+            <div>
+                <label for="date" >Appointment<br>Date</label>
+                <input type="date" name="date" id="date">
+            </div>
+
+            <div>
+                <label for="time">Appotntment<br>Time</label>
+                <input type="time" name="time" id="time">
+            </div>
+
+            <div>
+                <label for="first-name">Name</label>
+                <input type="text" placeholder="First Name" name="first-name" id="first-name">
+                <input type="text" placeholder="Last Name" name="last-name" id="last-name">
+            </div>
+
+            <div>
+                <label>Gender</label>
+                <span><label for="male">Male</label> <input type="radio" id="male" name="gendor" checked></span>
+                <span><label for="female">Female</label> <input type="radio" id="female" name="gendor"></span>
+            </div>
+            
+            <div>
+                <label for="phone">Phone</label>
+                <input type="tel" placeholder="Phone" name="phone" id="phone">
+            </div>
+
+            <div>
+                <label for="adresse-city">Address</label>
+                <input type="text" name="adresse-city" id="adresse-city" placeholder="City">
+                <input type="text" name="adresse-state" id="adresse-state" placeholder="State">
+            </div>
+
+            <div>
+                <label for="query">Your Query</label>
+                <textarea name="textarea" id="query"></textarea>
+            </div>
+
+            <div class="checkboxes">
+                <p>Select which appointment type(s) you require</p>
+                <span><input type="checkbox" id="cervix" name="appointment-type" value="cervix" checked>
+                <label for="cervix">Cervix checkup</label></span>
+                <br>
+                <span><input type="checkbox" id="heart" name="appointment-type" value="heart" checked>
+                <label for="heart">Heart checkup</label></span>
+                <br>
+                <span><input type="checkbox" id="eye" name="appointment-type" value="eye">
+                <label for="eye">Eye check-up</label></span>
+                <br>
+                <span><input type="checkbox" id="hearing" name="appointment-type" value="hearing">
+                <label for="hearing">Hearing Test</label></span>
+                <br><br>
+                <button type="submit">Send</button>
+            </div>
+            
+        </form>
+    </div>
+
+</body>
+</html>

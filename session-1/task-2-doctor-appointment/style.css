@@ -1,0 +1,65 @@
+body {
+  font-family: "Tajawal", sans-serif;
+}
+
+
+.doctor-image {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 25px;
+}
+
+
+
+.form-section {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.form-section h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.form-section hr {
+    width: 90%;
+    border: 0;
+    border-top: 2px solid red;
+    margin-bottom: 35px;
+}
+
+form div {
+    margin-bottom: 25px;
+}
+
+div > label {
+    display: inline-block;
+    width: 110px;
+    vertical-align: top;
+}
+
+div input {
+    margin-right: 20px;
+}
+
+textarea {
+    width: 350px;
+    height: 70px;
+}
+
+.checkboxes {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.checkboxes p {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.doctor-image img {
+    max-width: 100%;
+    height: auto;
+}
