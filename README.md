@@ -1,8 +1,8 @@
-# NTI Full Stack PHP Laravel Training
+# NTI Full Stack PHP Training
 
-This repository contains my tasks and practice work during the Full Stack PHP Laravel training at NTI.
+This repository contains my tasks and practice work during the Full Stack PHP Training at NTI.
 
-The repository is organized by sessions, and each session contains its related tasks.
+The repository includes assignments and tasks completed throughout the training, starting with frontend development using HTML and CSS.
 
 ## Session 1
 
@@ -10,10 +10,10 @@ The repository is organized by sessions, and each session contains its related t
 
 Simple travel webpage built using HTML and CSS.
 
-**Live Demo:**  
-https://moneimsaad.github.io/nti-full-stack-php-laravel-training/session-1/task-1-misr-travels/
+**Live Demo:**
+https://moneimsaad.github.io/nti-full-stack-php-training/session-1/task-1-misr-travels/
 
-**Files:**  
+**Files:**
 `session-1/task-1-misr-travels/`
 
 ---
@@ -22,12 +22,26 @@ https://moneimsaad.github.io/nti-full-stack-php-laravel-training/session-1/task-
 
 Simple doctor appointment webpage built using HTML and CSS.
 
-**Live Demo:**  
-https://moneimsaad.github.io/nti-full-stack-php-laravel-training/session-1/task-2-doctor-appointment/
+**Live Demo:**
+https://moneimsaad.github.io/nti-full-stack-php-training/session-1/task-2-doctor-appointment/
 
-**Files:**  
+**Files:**
 `session-1/task-2-doctor-appointment/`
 
 ---
 
-More sessions and tasks will be added during the training.
+## Assignment 2
+
+### Task 1 - Family Bakery
+
+Simple bakery webpage built using HTML and CSS.
+
+**Live Demo:**
+https://moneimsaad.github.io/nti-full-stack-php-training/Assignment-2/task-1-Family_Bakery/
+
+**Files:**
+`Assignment-2/task-1-Family_Bakery/`
+
+---
+
+More assignments, sessions, and projects will be added throughout the training.

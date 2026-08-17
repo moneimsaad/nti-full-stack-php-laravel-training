@@ -1,0 +1,51 @@
+
+
+
+/* =========================  Scroll Mouse ========================= */
+
+.scroll-downs {
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    transform: translateX(-50%);
+    width: 34px;
+    height: 55px;
+    z-index: 10;
+}
+
+
+.mousey {
+    width: 3px;
+    height: 35px;
+    padding: 10px 15px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    opacity: 0.8;
+    box-sizing: content-box;
+}
+
+
+.scroller {
+    width: 3px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 25%;
+    animation: scroll 2.2s
+               cubic-bezier(.15, .41, .69, .94)
+               infinite;
+}
+
+
+@keyframes scroll {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(15px);
+        opacity: 0;
+    }
+}
